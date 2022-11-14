@@ -1,0 +1,36 @@
+{
+  "name": "azino-react",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "dependencies": {
+    "@walletconnect/web3-provider": "^1.8.0",
+    "bootstrap": "^4.5.0",
+    "dotenv": "^16.0.2",
+    "ethers": "^5.7.1",
+    "next": "^10.2.3",
+    "next-compose-plugins": "^2.2.1",
+    "next-i18next": "^12.1.0",
+    "next-images": "^1.4.0",
+    "next-language-detector": "^1.0.2",
+    "next-translate": "^1.6.0",
+    "react": "^18.2.0",
+    "react-bootstrap": "^1.0.1",
+    "react-countup": "^4.3.3",
+    "react-dom": "^18.2.0",
+    "react-modal-video": "^1.2.3",
+    "react-scroll": "^1.8.0",
+    "react-toastify": "^9.0.3",
+    "react-visibility-sensor": "^5.1.1",
+    "simple-react-lightbox": "^3.3.4-1",
+    "swiper": "^6.8.4",
+    "web3": "^1.8.0",
+    "web3modal": "^1.9.9"
+  },
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "export": "npm run build && next export -o _static"
+  }
+}
